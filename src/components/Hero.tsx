@@ -99,12 +99,12 @@ export const Hero: React.FC<HeroProps> = ({
   return (
     <section
       id="hero-section"
-      className="relative overflow-hidden pt-8 pb-14 sm:pt-12 sm:pb-20 lg:pt-16 lg:pb-24 bg-gradient-to-b from-slate-50 via-white to-slate-50/50 dark:from-slate-950 dark:via-slate-900/90 dark:to-slate-950 border-b border-slate-200/80 dark:border-slate-800"
+      className="relative overflow-hidden pt-8 pb-14 sm:pt-12 sm:pb-20 lg:pt-16 lg:pb-24 bg-gradient-to-b from-red-50 via-white to-red-50/60 dark:from-red-950/80 dark:via-slate-900/90 dark:to-slate-950 border-b border-red-200/80 dark:border-red-900/70"
     >
       {/* Subtle Background Mesh */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-30 dark:opacity-20">
-        <div className="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-blue-500/20 blur-3xl" />
-        <div className="absolute top-1/2 -left-40 w-96 h-96 rounded-full bg-indigo-500/20 blur-3xl" />
+        <div className="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-red-500/20 blur-3xl" />
+        <div className="absolute top-1/2 -left-40 w-96 h-96 rounded-full bg-rose-500/20 blur-3xl" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -113,7 +113,7 @@ export const Hero: React.FC<HeroProps> = ({
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             {/* Top Status Badge */}
             <div className="flex items-center justify-center lg:justify-start">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-blue-50 dark:bg-blue-950/70 text-blue-700 dark:text-blue-300 border border-blue-200/80 dark:border-blue-800/80 shadow-2xs">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-red-50 dark:bg-red-950/70 text-red-700 dark:text-red-300 border border-red-200/80 dark:border-red-800/80 shadow-2xs">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                 <span>Available for Data Analyst & BI Roles</span>
               </div>
@@ -121,7 +121,7 @@ export const Hero: React.FC<HeroProps> = ({
 
             {/* Main Greeting & Name */}
             <div className="space-y-2">
-              <div className="inline-flex items-center gap-1.5 text-sm sm:text-base font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+              <div className="inline-flex items-center gap-1.5 text-sm sm:text-base font-semibold text-red-600 dark:text-red-300 uppercase tracking-wider">
                 {renderGreetingIcon()}
                 <span>{timeGreeting.greeting}, I'm</span>
               </div>
@@ -129,16 +129,16 @@ export const Hero: React.FC<HeroProps> = ({
                 {userProfile.name}
               </h1>
               <div className="pt-1">
-                <span className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-yellow-400 dark:text-yellow-300">
+                <span className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-red-500 dark:text-red-300">
                   Co-founder at Sysclu Enterprises
                 </span>
               </div>
             </div>
 
             {/* Profile Value Statement */}
-            <div className="p-5 rounded-2xl bg-white/90 dark:bg-slate-900/90 backdrop-blur-xs border border-slate-200/80 dark:border-slate-800 shadow-xs max-w-2xl mx-auto lg:mx-0">
+            <div className="p-5 rounded-2xl bg-white/90 dark:bg-slate-900/90 backdrop-blur-xs border border-red-200/80 dark:border-red-900/70 shadow-xs max-w-2xl mx-auto lg:mx-0">
               <div className="flex items-center gap-2 mb-2.5">
-                <div className="w-2.5 h-2.5 rounded-full bg-blue-600 ring-4 ring-blue-100 dark:ring-blue-900/50" />
+                <div className="w-2.5 h-2.5 rounded-full bg-red-600 ring-4 ring-red-100 dark:ring-red-900/50" />
                 <span className="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400">
                   Core Analytics Value Proposition
                 </span>
@@ -146,9 +146,9 @@ export const Hero: React.FC<HeroProps> = ({
               <p className="text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed font-normal">
                 {userProfile.daHeadline}
               </p>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 dark:border-slate-800 flex flex-wrap items-center gap-1.5 text-xs text-slate-500 dark:text-slate-400">
+              <div className="mt-3.5 pt-3 border-t border-red-100 dark:border-red-900/40 flex flex-wrap items-center gap-1.5 text-xs text-slate-500 dark:text-slate-400">
                 <span className="font-semibold text-slate-800 dark:text-slate-200">Key Pillars:</span>
-                <span className="px-2.5 py-0.5 rounded-md bg-blue-50 dark:bg-blue-950/80 text-blue-700 dark:text-blue-300 font-medium border border-blue-200/60 dark:border-blue-800/60">Power BI</span>
+                <span className="px-2.5 py-0.5 rounded-md bg-red-50 dark:bg-red-950/80 text-red-700 dark:text-red-300 font-medium border border-red-200/60 dark:border-red-800/60">Power BI</span>
                 <span className="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-medium border border-slate-200/60 dark:border-slate-700/60">SQL</span>
                 <span className="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-medium border border-slate-200/60 dark:border-slate-700/60">DAX</span>
                 <span className="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-medium border border-slate-200/60 dark:border-slate-700/60">Power Query ETL</span>
@@ -161,7 +161,7 @@ export const Hero: React.FC<HeroProps> = ({
               <button
                 id="hero-primary-cta"
                 onClick={() => handleScrollTo('projects-section', '/projects')}
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl font-bold text-sm text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-500 shadow-md hover:shadow-lg transition-all cursor-pointer"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl font-bold text-sm text-white bg-red-600 hover:bg-red-700 dark:bg-red-600 dark:hover:bg-red-500 shadow-md hover:shadow-lg transition-all cursor-pointer"
               >
                 <span>Explore Projects & Dashboards</span>
                 <ArrowRight className="w-4 h-4" />
@@ -170,9 +170,9 @@ export const Hero: React.FC<HeroProps> = ({
               <button
                 id="hero-skills-cta"
                 onClick={() => handleScrollTo('skills-section', '/skills')}
-                className="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700/80 border border-slate-300 dark:border-slate-700 shadow-xs transition-colors cursor-pointer"
+                className="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm text-red-700 dark:text-red-200 bg-white dark:bg-slate-800 hover:bg-red-50 dark:hover:bg-slate-700/80 border border-red-200 dark:border-red-700 shadow-xs transition-colors cursor-pointer"
               >
-                <Sparkles className="w-4 h-4 text-blue-500" />
+                <Sparkles className="w-4 h-4 text-red-500" />
                 <span>Skills & Tech Stack</span>
               </button>
 
@@ -180,16 +180,16 @@ export const Hero: React.FC<HeroProps> = ({
                 id="hero-resume-cta"
                 href={userProfile.resumePath}
                 download="Data_Analyst_Resume.pdf"
-                className="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700 transition-colors"
+                className="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 hover:bg-red-100 dark:hover:bg-slate-700 border border-red-200 dark:border-slate-700 transition-colors"
               >
-                <FileDown className="w-4 h-4 text-slate-500" />
+                <FileDown className="w-4 h-4 text-red-500" />
                 <span>Resume</span>
               </a>
 
               <button
                 id="hero-contact-cta"
                 onClick={() => handleScrollTo('contact-section', '/contact')}
-                className="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950/40 transition-colors cursor-pointer"
+                className="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/40 transition-colors cursor-pointer"
               >
                 <Mail className="w-4 h-4" />
                 <span>Contact Me</span>
