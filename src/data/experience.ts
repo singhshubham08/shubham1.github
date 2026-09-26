@@ -1,0 +1,67 @@
+import { Experience } from '../types';
+
+export const experienceData: Experience[] = [
+  {
+    id: "exp-6",
+    company: "Sysclu Enterprises",
+    role: "Co-founder / Client Acquisition & Marketing",
+    duration: "Aug 2026 — Present",
+    profile: "data-analyst",
+    description: "Lead client acquisition, marketing, customer engagement, and business growth initiatives for Sysclu's software solutions.",
+    responsibilities: [
+      "Lead Sales & Marketing activities, including client acquisition, lead generation, outreach, and relationship management.",
+      "Develop and execute sales strategies to increase customer acquisition and expand the company's market presence.",
+      "Manage product positioning, marketing campaigns, and customer engagement for Sysclu's software solutions.",
+      "Work closely with the product and technology teams to align solutions with customer needs and business requirements.",
+      "Build partnerships and explore new business opportunities and revenue channels to support sustainable growth.",
+    ],
+    technologies: ["Sales", "Marketing", "Lead Generation", "Client Acquisition", "Product Positioning", "Customer Engagement", "Partnerships", "Business Development"],
+  },
+  {
+    id: "exp-3",
+    company: "Paisabazaar Marketing and Consulting Private Limited",
+    role: "Associate Sales Consultant",
+    duration: "Dec 2025 — July 2026",
+    location: "Gurgaon, India",
+    profile: "data-analyst",
+    description: "Deliver customer-focused sales support by understanding client needs, providing tailored solutions, and maintaining accurate application and CRM records.",
+    responsibilities: [
+      "Consistently achieved and exceeded monthly sales targets by identifying customer needs and providing tailored solutions.",
+      "Verified customer documentation and maintained accurate CRM records, contributing to efficient application processing and compliance.",
+      "Developed strong expertise in customer acquisition, sales negotiation, objection handling, and client relationship management.",
+      "Enhanced customer engagement and retention by delivering exceptional service and building long-term customer relationships.",
+    ],
+    technologies: ["Sales", "CRM", "Customer Acquisition", "Sales Negotiation", "Client Relationship Management"],
+  },
+  {
+    id: "exp-4",
+    company: "Delhivery Ltd.",
+    role: "Team Leader",
+    duration: "May 2025 — Aug 2025",
+    location: "Gurgaon, India",
+    profile: "data-analyst",
+    description: "Analyzed operational data and delivered timely reports, dashboards, and data-driven insights to improve reporting accuracy and support workforce planning.",
+    responsibilities: [
+      "Analyzed operational data using Excel (Pivot Tables, VLOOKUP, Conditional Formatting) to identify trends and improve reporting accuracy.",
+      "Prepared and shared daily, weekly, and monthly operational reports with management.",
+      "Supported decision-making by providing timely reports, dashboards, and data-driven insights for workforce planning.",
+      "Used statistical analysis and predictive modeling in ad targeting and segmentation to enhance campaign precision.",
+    ],
+    technologies: ["Excel", "Pivot Tables", "VLOOKUP", "Conditional Formatting", "Operational Reporting", "Dashboards", "Statistical Analysis", "Predictive Modeling", "Ad Targeting", "Segmentation"],
+  },
+  {
+    id: "exp-5",
+    company: "IBM",
+    role: "Data Analyst (Intern)",
+    duration: "June 2024 — Aug 2024",
+    location: "Gurgaon, India",
+    profile: "data-analyst",
+    description: "Applied SQL, advanced Excel, Python, Power BI, and Tableau for efficient data processing, analysis, dashboard development, and KPI reporting.",
+    responsibilities: [
+      "Utilized SQL, advanced Excel, and Python for data processing and analysis, successfully deploying a quality project for clients with a focus on efficiency and accuracy in data handling.",
+      "Analyzed and developed dashboards and reports using Power BI and Tableau to visualize key business metrics and KPIs.",
+      "Employed advanced Excel functions (VLOOKUP, Pivot Tables) for in-depth data analysis and report creation, reducing manual work by 2 hours and increasing workflow efficiency.",
+    ],
+    technologies: ["SQL", "Advanced Excel", "Python", "Power BI", "Tableau", "VLOOKUP", "Pivot Tables", "Data Processing", "Dashboard Development", "KPI Reporting"],
+  },
+];

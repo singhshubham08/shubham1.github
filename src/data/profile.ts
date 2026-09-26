@@ -1,0 +1,252 @@
+import { UserProfile } from '../types';
+import profilePhoto from './passport.jpeg';
+
+export const userProfile: UserProfile = {
+  name: "Shubham Singh",
+  primaryTitle: "Data Analyst",
+  secondaryTitle: "Power BI | SQL | Excel | DAX | Data Modeling | Business Intelligence",
+  daHeadline: "Turning complex data into actionable insights, interactive dashboards, and measurable business outcomes.",
+  email: "[singhshubham8001@gmail.com]", // Replace with actual email, e.g., yourname@domain.com
+  phone: "[YOUR PHONE]", // Optional
+  location: "Available for Remote & Hybrid Roles",
+  linkedin: "https://linkedin.com/in/shubham-singh-652018286]", // Replace with your LinkedIn profile URL
+  github: "https://github.com/singhshubham08",
+  whatsapp: "https://wa.me/918873820620",
+  socialLinks: {
+    github: "https://github.com/singhshubham08",
+    linkedin: "https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]", // Replace with your LinkedIn profile URL
+  },
+  resumePath: "https://drive.google.com/file/d/1P_M5ejK6evbo7OBuKMzuPCUjg2f2wRhT/view?usp=drive_link",
+  // =================================================================================
+  // RESUME KNOWLEDGE SOURCE (Primary Source 2 for God'sEYE)
+  // Paste your shareable Google Drive link below:
+  // e.g. "https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing"
+  // =================================================================================
+  resumeGoogleDriveUrl: "https://drive.google.com/file/d/1P_M5ejK6evbo7OBuKMzuPCUjg2f2wRhT/view?usp=drive_link",
+  resumeSourceUrl: "https://drive.google.com/file/d/1P_M5ejK6evbo7OBuKMzuPCUjg2f2wRhT/view?usp=drive_link",
+  photoPath: profilePhoto,
+  bioOverview:
+    "I am a results-driven Data Analyst specializing in Business Intelligence, data modeling, and performance analytics. I transform raw, fragmented data into robust relational models, automated ETL workflows, and high-impact Power BI dashboards that empower stakeholders to make confident, data-backed strategic decisions.",
+  daBio:
+    "As a Data Analyst, my focus is end-to-end data intelligence: connecting diverse data sources, cleaning and transforming raw tables with Power Query and SQL, architecting star-schema data models, authoring advanced DAX measures, and designing high-impact interactive Power BI dashboards that empower stakeholders to make confident, data-backed decisions.",
+  whatIBring: [
+    {
+      title: "Analytical & Problem-Solving Rigor",
+      description: "Structured problem breakdown, root-cause diagnosis, trend identification, and variance decomposition.",
+      iconName: "BrainCircuit",
+    },
+    {
+      title: "Commercial & Domain Awareness",
+      description: "Deep alignment with executive KPIs, revenue drivers, cost optimization, and measurable ROI.",
+      iconName: "Briefcase",
+    },
+    {
+      title: "Data Modeling & Architecture",
+      description: "Design of scalable Star Schemas, dimension-fact relationships, normalization, and semantic models.",
+      iconName: "Database",
+    },
+    {
+      title: "Interactive Visualization & UI/UX",
+      description: "User-centric Power BI reports, dynamic drill-throughs, custom tooltips, bookmarks, and mobile layouts.",
+      iconName: "BarChart3",
+    },
+    {
+      title: "Advanced SQL & Data Transformation",
+      description: "Complex CTEs, window functions, relational joins, Power Query M scripting, and automated ETL pipelines.",
+      iconName: "FileSpreadsheet",
+    },
+    {
+      title: "Stakeholder Storytelling",
+      description: "Translating technical metric logic into clear executive summaries, briefings, and strategic action plans.",
+      iconName: "Users",
+    },
+  ],
+  whatICanDo: [
+    {
+      id: "wcd-1",
+      title: "Interactive Power BI Dashboards",
+      description: "Build intuitive, automated, and visually compelling executive and operational dashboards.",
+      profile: "data-analyst",
+      iconName: "LayoutDashboard",
+    },
+    {
+      id: "wcd-2",
+      title: "Advanced SQL Querying & ETL",
+      description: "Perform exploratory data analysis, write complex CTEs, window functions, and extract insights from relational databases.",
+      profile: "data-analyst",
+      iconName: "Database",
+    },
+    {
+      id: "wcd-3",
+      title: "Data Modeling & Star Schema",
+      description: "Structure normalized fact and dimension tables with single-direction 1-to-many relationships for optimal DAX performance.",
+      profile: "data-analyst",
+      iconName: "Network",
+    },
+    {
+      id: "wcd-4",
+      title: "DAX Measures & Time Intelligence",
+      description: "Formulate calculated measures, YTD/MTD/YoY growth rates, dynamic titles, and parameter-driven metrics.",
+      profile: "data-analyst",
+      iconName: "Calculator",
+    },
+    {
+      id: "wcd-5",
+      title: "Advanced Spreadsheet & Excel Modeling",
+      description: "Design advanced financial and operational models utilizing Power Pivot, XLOOKUP, and dynamic scenario modeling.",
+      profile: "data-analyst",
+      iconName: "FileSpreadsheet",
+    },
+    {
+      id: "wcd-6",
+      title: "Automated Data Pipelines & Power Query",
+      description: "Automate repeatable data extraction, cleaning, unpivoting, and scheduled refreshes across diverse data sources.",
+      profile: "data-analyst",
+      iconName: "GitBranch",
+    },
+    {
+      id: "wcd-7",
+      title: "KPI & Cohort Retention Analytics",
+      description: "Measure customer churn, cohort behavior, sales conversion funnels, and executive scorecards.",
+      profile: "data-analyst",
+      iconName: "CheckSquare",
+    },
+    {
+      id: "wcd-8",
+      title: "Requirements-to-Dashboard Translation",
+      description: "Translate high-level stakeholder vision into exact analytical metrics, data models, and final dashboard deliverables.",
+      profile: "data-analyst",
+      iconName: "Workflow",
+    },
+  ],
+  analyticsWorkflow: [
+    {
+      stepNumber: "01",
+      title: "Understand",
+      shortSummary: "Business Problem & Stakeholder Objectives",
+      description: "Deeply understand the underlying business challenges, define quantifiable success metrics, and establish clear project scope.",
+      iconName: "HelpCircle",
+      keyActivities: ["Stakeholder Interviews", "Problem Formulation", "KPI Scoping", "Success Criteria Definition"],
+      deliverable: "Project Charter & Requirement Scope Document",
+    },
+    {
+      stepNumber: "02",
+      title: "Prepare",
+      shortSummary: "Data Collection, Cleaning & Transformation",
+      description: "Extract raw tables from sources, resolve nulls/duplicates, harmonize schemas, and validate data integrity using Power Query or SQL.",
+      iconName: "FileCog",
+      keyActivities: ["Data Profiling", "Anomaly Detection", "Type Casting", "Power Query M Scripting"],
+      deliverable: "Clean, Verified Staging Datasets",
+    },
+    {
+      stepNumber: "03",
+      title: "Model",
+      shortSummary: "Star Schema & Relational Design",
+      description: "Structure facts and dimensions, define cardinality, establish date hierarchies, and optimize relationships for performance.",
+      iconName: "Boxes",
+      keyActivities: ["Star Schema Architecture", "Relationship Validation", "Date Table Creation", "Performance Tuning"],
+      deliverable: "Robust Semantic Data Model",
+    },
+    {
+      stepNumber: "04",
+      title: "Analyze",
+      shortSummary: "SQL Queries, DAX Measures & Calculations",
+      description: "Author precise analytical calculations, time intelligence logic, segmentations, and variance drivers.",
+      iconName: "Binary",
+      keyActivities: ["DAX Measure Writing", "SQL Aggregations & CTEs", "Trend & Cohort Analysis", "Variance Decomposition"],
+      deliverable: "Calculated Metrics & Analytical Findings",
+    },
+    {
+      stepNumber: "05",
+      title: "Visualize",
+      shortSummary: "Interactive Dashboards & UI/UX Design",
+      description: "Design clean visual reports following visual hierarchy, drill-through workflows, custom bookmarks, and accessible layouts.",
+      iconName: "BarChart4",
+      keyActivities: ["Visual Hierarchy Layout", "Dynamic Filters & Slicers", "Drill-Through Actions", "Mobile Optimization"],
+      deliverable: "Interactive Power BI / BI Dashboard",
+    },
+    {
+      stepNumber: "06",
+      title: "Recommend",
+      shortSummary: "Actionable Insights & Business Outcomes",
+      description: "Translate visual data into strategic business recommendations with tangible operational impact and review cycles.",
+      iconName: "TrendingUp",
+      keyActivities: ["Executive Storytelling", "Strategic Recommendations", "UAT Sign-off", "Post-Launch Review"],
+      deliverable: "Executive Presentation & Action Plan",
+    },
+  ],
+  fromRequirementToDashboard: [
+    {
+      stepNumber: 1,
+      stage: "Discovery",
+      phase: "Business",
+      title: "Stakeholder Requirement Elicitation",
+      description: "Engage business leaders to identify core pain points, KPIs, and decision-making goals.",
+      deliverable: "Business Requirements Document (BRD)",
+      tools: ["Jira", "Confluence", "Stakeholder Workshops"],
+    },
+    {
+      stepNumber: 2,
+      stage: "Specification",
+      phase: "Business",
+      title: "Functional & Process Definition",
+      description: "Draft user stories with acceptance criteria and map current vs target state information flows.",
+      deliverable: "FRD & AS-IS / TO-BE Process Maps",
+      tools: ["User Stories", "Process Flow Diagrams", "Visio"],
+    },
+    {
+      stepNumber: 3,
+      stage: "Data Mapping",
+      phase: "Bridge",
+      title: "Data Gap & Schema Analysis",
+      description: "Map required business metrics to underlying database tables and identify missing attributes.",
+      deliverable: "Data Requirement Matrix & Source-to-Target Map",
+      tools: ["SQL", "Data Profiling", "Excel"],
+    },
+    {
+      stepNumber: 4,
+      stage: "Extraction & Prep",
+      phase: "Analytics",
+      title: "Data Extraction & Cleaning",
+      description: "Extract raw tables using SQL queries and automate ETL transformations with Power Query.",
+      deliverable: "Clean Staging Tables & SQL Views",
+      tools: ["SQL Server", "Power Query", "PostgreSQL"],
+    },
+    {
+      stepNumber: 5,
+      stage: "Modeling & DAX",
+      phase: "Analytics",
+      title: "Semantic Modeling & Calculations",
+      description: "Build star-schema relationships and author DAX measures for dynamic time-intelligence and KPI analysis.",
+      deliverable: "Semantic Model with Verified DAX Measures",
+      tools: ["Power BI", "DAX", "Star Schema"],
+    },
+    {
+      stepNumber: 6,
+      stage: "Visualization",
+      phase: "Analytics",
+      title: "Dashboard Development & UI Design",
+      description: "Craft responsive, user-friendly dashboard pages with executive summaries and operational drill-throughs.",
+      deliverable: "Interactive Power BI Report",
+      tools: ["Power BI Service", "Visual UI/UX", "Bookmarks"],
+    },
+    {
+      stepNumber: 7,
+      stage: "Validation",
+      phase: "Bridge",
+      title: "User Acceptance Testing (UAT)",
+      description: "Execute test scripts with business stakeholders to reconcile report figures with source systems.",
+      deliverable: "UAT Sign-off & Defect Log",
+      tools: ["UAT Test Matrix", "Reconciliation Sheets"],
+    },
+    {
+      stepNumber: 8,
+      stage: "Impact",
+      phase: "Decision",
+      title: "Insight Presentation & Recommendations",
+      description: "Present insights to leadership with prioritized strategic recommendations and measurable outcomes.",
+      deliverable: "Executive Briefing & Strategic Action Plan",
+      tools: ["Executive Summary", "Actionable Insights"],
+    },
+  ],
+};
